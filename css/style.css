@@ -47,7 +47,7 @@ textarea {
 }
 
 .mensagens-erro li::before {
-    content: url(img/exclamation.png);
+    content: url(exclamation.png);
     width: 16px;
     height: 17px;
     vertical-align: middle;
@@ -55,7 +55,7 @@ textarea {
 
 .mensagens-erro li {
     font-size: 20px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .btn-codificar {
@@ -92,8 +92,8 @@ button:hover {
 }
 
 .resultado:placeholder-shown {
-    background-image: url();
-    background-position: top;
+    background-image: url(not-found.png);
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -110,7 +110,7 @@ button:hover {
 
 .container-result {
     background-image: linear-gradient(to bottom,#ffffff,#685e5e,#000000); 
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 30px;
     padding: 2rem;
     height: 35rem;
@@ -223,7 +223,7 @@ button:hover {
         height: 30%;
     }
     .resultado:placeholder-shown {
-        background-image: url(img/not-found-mobile.png);
+        background-image: url(not-found-mobile.png);
     }
     .btn-copiar {
         display: block;
